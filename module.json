@@ -1,0 +1,109 @@
+{
+  "id": "tuirgins-utilities",
+  "title": "Tuirgin’s Utilities",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "recommends": [
+      {
+        "id": "tuirgins-cartography-symbols",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Provides general support for running old school dungeons in FoundryVTT",
+  "authors": [
+    {
+      "name": "Tuirgin",
+      "discord": "tuirgin",
+      "email": "tuirgin@gmail.com",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/tuirgin/tuirgins-utilities",
+  "packs": [
+    {
+      "label": "Tuirgin’s Tokens (SWB)",
+      "name": "tuirgins-tokens",
+      "type": "Actor",
+      "system": "worldbuilding",
+      "path": "packs/tuirgins-tokens",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Tuirgin’s Journals",
+      "name": "tuirgins-journals",
+      "type": "JournalEntry",
+      "path": "packs/tuirgins-journals",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Tuirgin’s Macros",
+      "name": "tuirgins-macros",
+      "type": "Macro",
+      "path": "packs/tuirgins-macros",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Tuirgin’s Tables",
+      "name": "tuirgins-tables",
+      "type": "RollTable",
+      "path": "packs/tuirgins-tables",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Tuirgin’s Scenes",
+      "name": "tuirgins-scenes",
+      "type": "Scene",
+      "path": "packs/tuirgins-scenes",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Tuirgin’s Provisioning for SWB",
+      "name": "tuirgins-provisioning-for-swb",
+      "type": "Adventure",
+      "system": "worldbuilding",
+      "path": "packs/tuirgins-provisioning-for-swb",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Tuirgin’s Provisioning (System Agnostic)",
+      "name": "tuirgins-provisioning-system-agnostic",
+      "type": "Adventure",
+      "path": "packs/tuirgins-provisioning-system-agnostic",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
