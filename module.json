@@ -16,6 +16,10 @@
     }
   ],
   "url": "https://github.com/tuirgin/tuirgins-utilities",
+  "license": "https://github.com/tuirgin/tuirgins-utilities/blob/main/LICENSE.md",
+  "readme": "https://github.com/tuirgin/tuirgins-utilities/blob/main/README.md",
+  "bugs": "https://github.com/tuirgin/tuirgins-utilities/issues",
+  "changelog": "https://github.com/tuirgin/tuirgins-utilities/releases",
   "packs": [
     {
       "label": "Tuirgin’s Tokens (SWB)",
