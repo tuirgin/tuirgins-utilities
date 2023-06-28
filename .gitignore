@@ -92,3 +92,7 @@ tags
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/emacs,vim,visualstudiocode
+
+### FoundryVTT ###
+packs/*/_source
+data/*/_source

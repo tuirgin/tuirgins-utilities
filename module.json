@@ -6,15 +6,6 @@
     "minimum": "11",
     "verified": "11"
   },
-  "relationships": {
-    "recommends": [
-      {
-        "id": "tuirgins-cartography-symbols",
-        "type": "module",
-        "compatibility": {}
-      }
-    ]
-  },
   "description": "Provides general support for running old school dungeons in FoundryVTT",
   "authors": [
     {

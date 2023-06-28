@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="250"
+   height="250"
+   viewBox="0 0 66.145832 66.145833"
+   version="1.1"
+   id="svg9595"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="blue.svg"
+   inkscape:export-filename="blue.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9597"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.66190376"
+     inkscape:cx="397.33873"
+     inkscape:cy="562.01524"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1919"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs9592">
+    <filter
+       inkscape:label="Button"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft bevel, slightly depressed middle"
+       style="color-interpolation-filters:sRGB"
+       id="filter8448"
+       x="-0.039667515"
+       y="-0.039667515"
+       width="1.079335"
+       height="1.079335">
+      <feGaussianBlur
+         stdDeviation="2.3"
+         in="SourceAlpha"
+         result="result0"
+         id="feGaussianBlur8422" />
+      <feMorphology
+         in="SourceAlpha"
+         radius="6.6"
+         result="result1"
+         id="feMorphology8424" />
+      <feGaussianBlur
+         stdDeviation="8.9"
+         in="result1"
+         id="feGaussianBlur8426" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result91"
+         id="feColorMatrix8428" />
+      <feComposite
+         in="result0"
+         operator="out"
+         result="result2"
+         in2="result91"
+         id="feComposite8430" />
+      <feGaussianBlur
+         stdDeviation="1.7"
+         result="result4"
+         id="feGaussianBlur8432" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         id="feDiffuseLighting8436">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight8434" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="SourceGraphic"
+         mode="multiply"
+         id="feBlend8438" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="result3"
+         id="feComposite8440" />
+      <feSpecularLighting
+         in="result4"
+         surfaceScale="5"
+         specularExponent="17.89999962"
+         id="feSpecularLighting8444">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight8442" />
+      </feSpecularLighting>
+      <feComposite
+         in2="result3"
+         operator="atop"
+         id="feComposite8446" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="display:inline;opacity:0.8;fill:#000000;fill-opacity:1;stroke:none;stroke-width:16.9293;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.9;paint-order:markers stroke fill"
+       id="path4107"
+       cx="33.072918"
+       cy="33.072914"
+       r="29.024918" />
+    <path
+       style="color:#000000;fill:#268bd2;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.68629;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke;filter:url(#filter8448)"
+       d="M 324.76628,0.79374977 C 146.0848,0.79374686 0.79374686,146.0848 0.79374977,324.76628 0.79374987,503.44775 146.08481,648.75831 324.76628,648.75831 c 178.68146,0 323.99203,-145.31057 323.99203,-323.99203 0,-178.68147 -145.31056,-323.97253023 -323.99203,-323.97253023 z m 0,42.30736723 c 155.81192,10e-7 281.68467,125.853223 281.68467,281.665163 0,155.81192 -125.87275,281.68467 -281.68467,281.68467 C 168.95434,606.45095 43.101117,480.5782 43.101117,324.76628 43.101115,168.95434 168.95434,43.101115 324.76628,43.101117 Z"
+       id="path6038"
+       transform="matrix(0.09849391,0,0,0.09849391,1.084457,1.0844569)" />
+  </g>
+</svg>
